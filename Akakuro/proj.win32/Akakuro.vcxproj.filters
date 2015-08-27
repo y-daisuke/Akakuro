@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\freetype250.lib" />
+    <Library Include="lib\glew32.lib" />
+    <Library Include="lib\glfw3.lib" />
+    <Library Include="lib\glfw3-2015.lib" />
+    <Library Include="lib\libbox2d.lib" />
+    <Library Include="lib\libbullet.lib" />
+    <Library Include="lib\libchipmunk.lib" />
+    <Library Include="lib\libchipmunk-2015.lib" />
+    <Library Include="lib\libcocos2d.lib" />
+    <Library Include="lib\libcurl_imp.lib" />
+    <Library Include="lib\libeay32.lib" />
+    <Library Include="lib\libiconv.lib" />
+    <Library Include="lib\libjpeg.lib" />
+    <Library Include="lib\libjpeg-2015.lib" />
+    <Library Include="lib\libmpg123.lib" />
+    <Library Include="lib\libogg.lib" />
+    <Library Include="lib\libpng.lib" />
+    <Library Include="lib\libpng-2015.lib" />
+    <Library Include="lib\librecast.lib" />
+    <Library Include="lib\libSpine.lib" />
+    <Library Include="lib\libtiff.lib" />
+    <Library Include="lib\libtiff-2015.lib" />
+    <Library Include="lib\libvorbis.lib" />
+    <Library Include="lib\libvorbisfile.lib" />
+    <Library Include="lib\libwebp.lib" />
+    <Library Include="lib\libzlib.lib" />
+    <Library Include="lib\OpenAL32.lib" />
+    <Library Include="lib\sqlite3.lib" />
+    <Library Include="lib\ssleay32.lib" />
+    <Library Include="lib\websockets.lib" />
+  </ItemGroup>
+</Project>
